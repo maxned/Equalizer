@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90C98415188353130055FFC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98414188353130055FFC5 /* Foundation.framework */; };
+		90C98417188353130055FFC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98416188353130055FFC5 /* CoreGraphics.framework */; };
+		90C98419188353130055FFC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98418188353130055FFC5 /* UIKit.framework */; };
+		90C9841F188353130055FFC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90C9841D188353130055FFC5 /* InfoPlist.strings */; };
+		90C98421188353130055FFC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C98420188353130055FFC5 /* main.m */; };
+		90C98425188353130055FFC5 /* EQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C98424188353130055FFC5 /* EQAppDelegate.m */; };
+		90C98427188353130055FFC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C98426188353130055FFC5 /* Images.xcassets */; };
+		90C9842E188353130055FFC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C9842D188353130055FFC5 /* XCTest.framework */; };
+		90C9842F188353130055FFC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98414188353130055FFC5 /* Foundation.framework */; };
+		90C98430188353130055FFC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98418188353130055FFC5 /* UIKit.framework */; };
+		90C98438188353130055FFC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90C98436188353130055FFC5 /* InfoPlist.strings */; };
+		90C9843A188353130055FFC5 /* EqualizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C98439188353130055FFC5 /* EqualizerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90C98431188353130055FFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90C98409188353130055FFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90C98410188353130055FFC5;
+			remoteInfo = Equalizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90C98411188353130055FFC5 /* Equalizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Equalizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C98414188353130055FFC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90C98416188353130055FFC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90C98418188353130055FFC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90C9841C188353130055FFC5 /* Equalizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Equalizer-Info.plist"; sourceTree = "<group>"; };
+		90C9841E188353130055FFC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90C98420188353130055FFC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90C98422188353130055FFC5 /* Equalizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Equalizer-Prefix.pch"; sourceTree = "<group>"; };
+		90C98423188353130055FFC5 /* EQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EQAppDelegate.h; sourceTree = "<group>"; };
+		90C98424188353130055FFC5 /* EQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EQAppDelegate.m; sourceTree = "<group>"; };
+		90C98426188353130055FFC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		90C9842C188353130055FFC5 /* EqualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EqualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C9842D188353130055FFC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		90C98435188353130055FFC5 /* EqualizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EqualizerTests-Info.plist"; sourceTree = "<group>"; };
+		90C98437188353130055FFC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90C98439188353130055FFC5 /* EqualizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EqualizerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90C9840E188353130055FFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C98417188353130055FFC5 /* CoreGraphics.framework in Frameworks */,
+				90C98419188353130055FFC5 /* UIKit.framework in Frameworks */,
+				90C98415188353130055FFC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C98429188353130055FFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C9842E188353130055FFC5 /* XCTest.framework in Frameworks */,
+				90C98430188353130055FFC5 /* UIKit.framework in Frameworks */,
+				90C9842F188353130055FFC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90C98408188353130055FFC5 = {
+			isa = PBXGroup;
+			children = (
+				90C9841A188353130055FFC5 /* Equalizer */,
+				90C98433188353130055FFC5 /* EqualizerTests */,
+				90C98413188353130055FFC5 /* Frameworks */,
+				90C98412188353130055FFC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90C98412188353130055FFC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90C98411188353130055FFC5 /* Equalizer.app */,
+				90C9842C188353130055FFC5 /* EqualizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90C98413188353130055FFC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90C98414188353130055FFC5 /* Foundation.framework */,
+				90C98416188353130055FFC5 /* CoreGraphics.framework */,
+				90C98418188353130055FFC5 /* UIKit.framework */,
+				90C9842D188353130055FFC5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90C9841A188353130055FFC5 /* Equalizer */ = {
+			isa = PBXGroup;
+			children = (
+				90C98423188353130055FFC5 /* EQAppDelegate.h */,
+				90C98424188353130055FFC5 /* EQAppDelegate.m */,
+				90C98426188353130055FFC5 /* Images.xcassets */,
+				90C9841B188353130055FFC5 /* Supporting Files */,
+			);
+			path = Equalizer;
+			sourceTree = "<group>";
+		};
+		90C9841B188353130055FFC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90C9841C188353130055FFC5 /* Equalizer-Info.plist */,
+				90C9841D188353130055FFC5 /* InfoPlist.strings */,
+				90C98420188353130055FFC5 /* main.m */,
+				90C98422188353130055FFC5 /* Equalizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90C98433188353130055FFC5 /* EqualizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				90C98439188353130055FFC5 /* EqualizerTests.m */,
+				90C98434188353130055FFC5 /* Supporting Files */,
+			);
+			path = EqualizerTests;
+			sourceTree = "<group>";
+		};
+		90C98434188353130055FFC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90C98435188353130055FFC5 /* EqualizerTests-Info.plist */,
+				90C98436188353130055FFC5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90C98410188353130055FFC5 /* Equalizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C9843D188353130055FFC5 /* Build configuration list for PBXNativeTarget "Equalizer" */;
+			buildPhases = (
+				90C9840D188353130055FFC5 /* Sources */,
+				90C9840E188353130055FFC5 /* Frameworks */,
+				90C9840F188353130055FFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Equalizer;
+			productName = Equalizer;
+			productReference = 90C98411188353130055FFC5 /* Equalizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90C9842B188353130055FFC5 /* EqualizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C98440188353130055FFC5 /* Build configuration list for PBXNativeTarget "EqualizerTests" */;
+			buildPhases = (
+				90C98428188353130055FFC5 /* Sources */,
+				90C98429188353130055FFC5 /* Frameworks */,
+				90C9842A188353130055FFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90C98432188353130055FFC5 /* PBXTargetDependency */,
+			);
+			name = EqualizerTests;
+			productName = EqualizerTests;
+			productReference = 90C9842C188353130055FFC5 /* EqualizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90C98409188353130055FFC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EQ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Max Nedorezov";
+				TargetAttributes = {
+					90C9842B188353130055FFC5 = {
+						TestTargetID = 90C98410188353130055FFC5;
+					};
+				};
+			};
+			buildConfigurationList = 90C9840C188353130055FFC5 /* Build configuration list for PBXProject "Equalizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90C98408188353130055FFC5;
+			productRefGroup = 90C98412188353130055FFC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90C98410188353130055FFC5 /* Equalizer */,
+				90C9842B188353130055FFC5 /* EqualizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90C9840F188353130055FFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C9841F188353130055FFC5 /* InfoPlist.strings in Resources */,
+				90C98427188353130055FFC5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C9842A188353130055FFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C98438188353130055FFC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90C9840D188353130055FFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C98425188353130055FFC5 /* EQAppDelegate.m in Sources */,
+				90C98421188353130055FFC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C98428188353130055FFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C9843A188353130055FFC5 /* EqualizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90C98432188353130055FFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90C98410188353130055FFC5 /* Equalizer */;
+			targetProxy = 90C98431188353130055FFC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90C9841D188353130055FFC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C9841E188353130055FFC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90C98436188353130055FFC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C98437188353130055FFC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90C9843B188353130055FFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90C9843C188353130055FFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90C9843E188353130055FFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Equalizer/Equalizer-Prefix.pch";
+				INFOPLIST_FILE = "Equalizer/Equalizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90C9843F188353130055FFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Equalizer/Equalizer-Prefix.pch";
+				INFOPLIST_FILE = "Equalizer/Equalizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		90C98441188353130055FFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Equalizer.app/Equalizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Equalizer/Equalizer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EqualizerTests/EqualizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		90C98442188353130055FFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Equalizer.app/Equalizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Equalizer/Equalizer-Prefix.pch";
+				INFOPLIST_FILE = "EqualizerTests/EqualizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90C9840C188353130055FFC5 /* Build configuration list for PBXProject "Equalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C9843B188353130055FFC5 /* Debug */,
+				90C9843C188353130055FFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C9843D188353130055FFC5 /* Build configuration list for PBXNativeTarget "Equalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C9843E188353130055FFC5 /* Debug */,
+				90C9843F188353130055FFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90C98440188353130055FFC5 /* Build configuration list for PBXNativeTarget "EqualizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C98441188353130055FFC5 /* Debug */,
+				90C98442188353130055FFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90C98409188353130055FFC5 /* Project object */;
+}
