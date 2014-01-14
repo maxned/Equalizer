@@ -235,7 +235,7 @@ static Novocaine *audioManager = nil;
 #if defined ( USING_IOS )
     
     // TODO: Move this somewhere more dynamic - should update category as appropriate to current application behavior
-    UInt32 sessionCategory = kAudioSessionCategory_PlayAndRecord;
+    UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
     CheckError( AudioSessionSetProperty (kAudioSessionProperty_AudioCategory,
                                          sizeof (sessionCategory),
                                          &sessionCategory), "Couldn't set audio category");    

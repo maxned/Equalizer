@@ -17,7 +17,6 @@
 
 @implementation EQViewController {
     UISlider *slider[10];
-    float sr;
     float centerFrequencies[10];
     float initialGain;
     NVPeakingEQFilter *PEQ[10];
@@ -27,13 +26,7 @@
 {
     [super viewDidLoad];
 
-    NSError *setCategoryError = nil;
-    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&setCategoryError];
-
     self.audioManager = [Novocaine audioManager];
-    self.audioManager.forceOutputToSpeaker = YES;
-
-    sr = self.audioManager.samplingRate;
 
     // define center frequencies of the bands
     centerFrequencies[0] = 32.0f;
@@ -51,7 +44,7 @@
     initialGain = 0.0f;
 
     for (int i = 0; i < 10; i++) {
-        PEQ[i] = [[NVPeakingEQFilter alloc] initWithSamplingRate:sr];
+        PEQ[i] = [[NVPeakingEQFilter alloc] initWithSamplingRate:self.audioManager.samplingRate];
         PEQ[i].Q = 2.0f;
         PEQ[i].centerFrequency = centerFrequencies[i];
         PEQ[i].G = initialGain;
