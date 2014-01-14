@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90B116FC1884DF3D00BDBDB0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C9845B188358C90055FFC5 /* CoreAudio.framework */; };
 		90C98415188353130055FFC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98414188353130055FFC5 /* Foundation.framework */; };
 		90C98417188353130055FFC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98416188353130055FFC5 /* CoreGraphics.framework */; };
 		90C98419188353130055FFC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98418188353130055FFC5 /* UIKit.framework */; };
 		90C9841F188353130055FFC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90C9841D188353130055FFC5 /* InfoPlist.strings */; };
 		90C98421188353130055FFC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C98420188353130055FFC5 /* main.m */; };
-		90C98425188353130055FFC5 /* EQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C98424188353130055FFC5 /* EQAppDelegate.m */; };
+		90C98425188353130055FFC5 /* EQAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90C98424188353130055FFC5 /* EQAppDelegate.mm */; };
 		90C98427188353130055FFC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C98426188353130055FFC5 /* Images.xcassets */; };
 		90C9842E188353130055FFC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C9842D188353130055FFC5 /* XCTest.framework */; };
 		90C9842F188353130055FFC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98414188353130055FFC5 /* Foundation.framework */; };
 		90C98430188353130055FFC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98418188353130055FFC5 /* UIKit.framework */; };
 		90C98438188353130055FFC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90C98436188353130055FFC5 /* InfoPlist.strings */; };
 		90C9843A188353130055FFC5 /* EqualizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C98439188353130055FFC5 /* EqualizerTests.m */; };
+		90C98445188353330055FFC5 /* EQViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90C98444188353330055FFC5 /* EQViewController.mm */; };
+		90C98447188353B60055FFC5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98446188353B60055FFC5 /* MediaPlayer.framework */; };
+		90C98456188354D60055FFC5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98455188354D60055FFC5 /* AudioToolbox.framework */; };
+		90C98458188354DA0055FFC5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98457188354DA0055FFC5 /* Accelerate.framework */; };
+		90C9845A188354E00055FFC5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98459188354E00055FFC5 /* AVFoundation.framework */; };
+		90C9848018835E800055FFC5 /* AudioFileReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90C9847918835E800055FFC5 /* AudioFileReader.mm */; };
+		90C9848118835E800055FFC5 /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C9847B18835E800055FFC5 /* AudioFileWriter.m */; };
+		90C9848218835E800055FFC5 /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C9847D18835E800055FFC5 /* Novocaine.m */; };
+		90C9848318835E800055FFC5 /* RingBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90C9847F18835E800055FFC5 /* RingBuffer.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +51,28 @@
 		90C98420188353130055FFC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90C98422188353130055FFC5 /* Equalizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Equalizer-Prefix.pch"; sourceTree = "<group>"; };
 		90C98423188353130055FFC5 /* EQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EQAppDelegate.h; sourceTree = "<group>"; };
-		90C98424188353130055FFC5 /* EQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EQAppDelegate.m; sourceTree = "<group>"; };
+		90C98424188353130055FFC5 /* EQAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = EQAppDelegate.mm; sourceTree = "<group>"; };
 		90C98426188353130055FFC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		90C9842C188353130055FFC5 /* EqualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EqualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C9842D188353130055FFC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		90C98435188353130055FFC5 /* EqualizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EqualizerTests-Info.plist"; sourceTree = "<group>"; };
 		90C98437188353130055FFC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90C98439188353130055FFC5 /* EqualizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EqualizerTests.m; sourceTree = "<group>"; };
+		90C98443188353330055FFC5 /* EQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQViewController.h; sourceTree = "<group>"; };
+		90C98444188353330055FFC5 /* EQViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EQViewController.mm; sourceTree = "<group>"; };
+		90C98446188353B60055FFC5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		90C98455188354D60055FFC5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		90C98457188354DA0055FFC5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		90C98459188354E00055FFC5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		90C9845B188358C90055FFC5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		90C9847818835E800055FFC5 /* AudioFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileReader.h; sourceTree = "<group>"; };
+		90C9847918835E800055FFC5 /* AudioFileReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioFileReader.mm; sourceTree = "<group>"; };
+		90C9847A18835E800055FFC5 /* AudioFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileWriter.h; sourceTree = "<group>"; };
+		90C9847B18835E800055FFC5 /* AudioFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileWriter.m; sourceTree = "<group>"; };
+		90C9847C18835E800055FFC5 /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novocaine.h; sourceTree = "<group>"; };
+		90C9847D18835E800055FFC5 /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novocaine.m; sourceTree = "<group>"; };
+		90C9847E18835E800055FFC5 /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
+		90C9847F18835E800055FFC5 /* RingBuffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RingBuffer.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +80,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B116FC1884DF3D00BDBDB0 /* CoreAudio.framework in Frameworks */,
+				90C9845A188354E00055FFC5 /* AVFoundation.framework in Frameworks */,
+				90C98458188354DA0055FFC5 /* Accelerate.framework in Frameworks */,
+				90C98456188354D60055FFC5 /* AudioToolbox.framework in Frameworks */,
+				90C98447188353B60055FFC5 /* MediaPlayer.framework in Frameworks */,
 				90C98417188353130055FFC5 /* CoreGraphics.framework in Frameworks */,
 				90C98419188353130055FFC5 /* UIKit.framework in Frameworks */,
 				90C98415188353130055FFC5 /* Foundation.framework in Frameworks */,
@@ -96,6 +126,11 @@
 		90C98413188353130055FFC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				90C9845B188358C90055FFC5 /* CoreAudio.framework */,
+				90C98459188354E00055FFC5 /* AVFoundation.framework */,
+				90C98457188354DA0055FFC5 /* Accelerate.framework */,
+				90C98455188354D60055FFC5 /* AudioToolbox.framework */,
+				90C98446188353B60055FFC5 /* MediaPlayer.framework */,
 				90C98414188353130055FFC5 /* Foundation.framework */,
 				90C98416188353130055FFC5 /* CoreGraphics.framework */,
 				90C98418188353130055FFC5 /* UIKit.framework */,
@@ -108,7 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				90C98423188353130055FFC5 /* EQAppDelegate.h */,
-				90C98424188353130055FFC5 /* EQAppDelegate.m */,
+				90C98424188353130055FFC5 /* EQAppDelegate.mm */,
+				90C98443188353330055FFC5 /* EQViewController.h */,
+				90C98444188353330055FFC5 /* EQViewController.mm */,
+				90C9847718835E800055FFC5 /* Novocaine */,
 				90C98426188353130055FFC5 /* Images.xcassets */,
 				90C9841B188353130055FFC5 /* Supporting Files */,
 			);
@@ -142,6 +180,21 @@
 				90C98436188353130055FFC5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90C9847718835E800055FFC5 /* Novocaine */ = {
+			isa = PBXGroup;
+			children = (
+				90C9847818835E800055FFC5 /* AudioFileReader.h */,
+				90C9847918835E800055FFC5 /* AudioFileReader.mm */,
+				90C9847A18835E800055FFC5 /* AudioFileWriter.h */,
+				90C9847B18835E800055FFC5 /* AudioFileWriter.m */,
+				90C9847C18835E800055FFC5 /* Novocaine.h */,
+				90C9847D18835E800055FFC5 /* Novocaine.m */,
+				90C9847E18835E800055FFC5 /* RingBuffer.h */,
+				90C9847F18835E800055FFC5 /* RingBuffer.mm */,
+			);
+			path = Novocaine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C98425188353130055FFC5 /* EQAppDelegate.m in Sources */,
+				90C98445188353330055FFC5 /* EQViewController.mm in Sources */,
+				90C98425188353130055FFC5 /* EQAppDelegate.mm in Sources */,
+				90C9848218835E800055FFC5 /* Novocaine.m in Sources */,
+				90C9848318835E800055FFC5 /* RingBuffer.mm in Sources */,
+				90C9848118835E800055FFC5 /* AudioFileWriter.m in Sources */,
 				90C98421188353130055FFC5 /* main.m in Sources */,
+				90C9848018835E800055FFC5 /* AudioFileReader.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +416,7 @@
 		90C9843E188353130055FFC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -371,6 +430,7 @@
 		90C9843F188353130055FFC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -442,6 +502,7 @@
 				90C9843F188353130055FFC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90C98440188353130055FFC5 /* Build configuration list for PBXNativeTarget "EqualizerTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +511,7 @@
 				90C98442188353130055FFC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

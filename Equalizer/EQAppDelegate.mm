@@ -7,14 +7,19 @@
 //
 
 #import "EQAppDelegate.h"
+#import "EQViewController.h"
 
 @implementation EQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
     self.window.backgroundColor = [UIColor whiteColor];
+
+    EQViewController *viewController = [[EQViewController alloc] init];
+    self.window.rootViewController = viewController;
+
     [self.window makeKeyAndVisible];
     return YES;
 }
