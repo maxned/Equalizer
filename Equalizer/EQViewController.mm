@@ -53,6 +53,7 @@
     MPMediaPickerController *mediaPicker = [[MPMediaPickerController alloc] initWithMediaTypes:MPMediaTypeMusic];
     mediaPicker.delegate = self;
     mediaPicker.allowsPickingMultipleItems = NO;
+    mediaPicker.showsCloudItems = NO;
     [self presentViewController:mediaPicker animated:YES completion:nil];
 
     [self layoutSliders];

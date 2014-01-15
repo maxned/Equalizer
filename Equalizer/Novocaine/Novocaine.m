@@ -233,13 +233,16 @@ static Novocaine *audioManager = nil;
     // ---------------------------
     
 #if defined ( USING_IOS )
+
     
     // TODO: Move this somewhere more dynamic - should update category as appropriate to current application behavior
-    UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
+    /*UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
     CheckError( AudioSessionSetProperty (kAudioSessionProperty_AudioCategory,
                                          sizeof (sessionCategory),
-                                         &sessionCategory), "Couldn't set audio category");    
-    
+                                         &sessionCategory), "Couldn't set audio category"); */
+
+    NSError *setCategoryError = nil;
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&setCategoryError];
     
     // Add a property listener, to listen to changes to the session
     CheckError( AudioSessionAddPropertyListener(kAudioSessionProperty_AudioRouteChange, sessionPropertyListener, (__bridge void*)self), "Couldn't add audio session property listener");
