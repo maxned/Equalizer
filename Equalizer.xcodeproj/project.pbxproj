@@ -20,6 +20,7 @@
 		90B1171D1884E3C500BDBDB0 /* NVDSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90B117131884E3C500BDBDB0 /* NVDSP.mm */; };
 		90B117241884E82300BDBDB0 /* NVClippingDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B117211884E82300BDBDB0 /* NVClippingDetection.m */; };
 		90B117251884E82300BDBDB0 /* NVSoundLevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B117231884E82300BDBDB0 /* NVSoundLevelMeter.m */; };
+		90B1172718860E8500BDBDB0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 90B1172618860E8500BDBDB0 /* README.md */; };
 		90C98415188353130055FFC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98414188353130055FFC5 /* Foundation.framework */; };
 		90C98417188353130055FFC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98416188353130055FFC5 /* CoreGraphics.framework */; };
 		90C98419188353130055FFC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98418188353130055FFC5 /* UIKit.framework */; };
@@ -30,8 +31,6 @@
 		90C9842E188353130055FFC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C9842D188353130055FFC5 /* XCTest.framework */; };
 		90C9842F188353130055FFC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98414188353130055FFC5 /* Foundation.framework */; };
 		90C98430188353130055FFC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98418188353130055FFC5 /* UIKit.framework */; };
-		90C98438188353130055FFC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90C98436188353130055FFC5 /* InfoPlist.strings */; };
-		90C9843A188353130055FFC5 /* EqualizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C98439188353130055FFC5 /* EqualizerTests.m */; };
 		90C98445188353330055FFC5 /* EQViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90C98444188353330055FFC5 /* EQViewController.mm */; };
 		90C98447188353B60055FFC5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98446188353B60055FFC5 /* MediaPlayer.framework */; };
 		90C98456188354D60055FFC5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C98455188354D60055FFC5 /* AudioToolbox.framework */; };
@@ -78,6 +77,7 @@
 		90B117211884E82300BDBDB0 /* NVClippingDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVClippingDetection.m; sourceTree = "<group>"; };
 		90B117221884E82300BDBDB0 /* NVSoundLevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVSoundLevelMeter.h; sourceTree = "<group>"; };
 		90B117231884E82300BDBDB0 /* NVSoundLevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVSoundLevelMeter.m; sourceTree = "<group>"; };
+		90B1172618860E8500BDBDB0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		90C98411188353130055FFC5 /* Equalizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Equalizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C98414188353130055FFC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90C98416188353130055FFC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,9 +91,6 @@
 		90C98426188353130055FFC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		90C9842C188353130055FFC5 /* EqualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EqualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C9842D188353130055FFC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		90C98435188353130055FFC5 /* EqualizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EqualizerTests-Info.plist"; sourceTree = "<group>"; };
-		90C98437188353130055FFC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		90C98439188353130055FFC5 /* EqualizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EqualizerTests.m; sourceTree = "<group>"; };
 		90C98443188353330055FFC5 /* EQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQViewController.h; sourceTree = "<group>"; };
 		90C98444188353330055FFC5 /* EQViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EQViewController.mm; sourceTree = "<group>"; };
 		90C98446188353B60055FFC5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -190,8 +187,8 @@
 		90C98408188353130055FFC5 = {
 			isa = PBXGroup;
 			children = (
+				90B1172618860E8500BDBDB0 /* README.md */,
 				90C9841A188353130055FFC5 /* Equalizer */,
-				90C98433188353130055FFC5 /* EqualizerTests */,
 				90C98413188353130055FFC5 /* Frameworks */,
 				90C98412188353130055FFC5 /* Products */,
 			);
@@ -244,24 +241,6 @@
 				90C9841D188353130055FFC5 /* InfoPlist.strings */,
 				90C98420188353130055FFC5 /* main.m */,
 				90C98422188353130055FFC5 /* Equalizer-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		90C98433188353130055FFC5 /* EqualizerTests */ = {
-			isa = PBXGroup;
-			children = (
-				90C98439188353130055FFC5 /* EqualizerTests.m */,
-				90C98434188353130055FFC5 /* Supporting Files */,
-			);
-			path = EqualizerTests;
-			sourceTree = "<group>";
-		};
-		90C98434188353130055FFC5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				90C98435188353130055FFC5 /* EqualizerTests-Info.plist */,
-				90C98436188353130055FFC5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -357,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B1172718860E8500BDBDB0 /* README.md in Resources */,
 				90C9841F188353130055FFC5 /* InfoPlist.strings in Resources */,
 				90C98427188353130055FFC5 /* Images.xcassets in Resources */,
 			);
@@ -366,7 +346,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C98438188353130055FFC5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +382,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C9843A188353130055FFC5 /* EqualizerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,14 +400,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				90C9841E188353130055FFC5 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		90C98436188353130055FFC5 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90C98437188353130055FFC5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
